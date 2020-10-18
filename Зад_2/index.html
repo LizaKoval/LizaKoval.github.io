@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Страничка</title>
+    <style>
+        body{
+            background-color: black;
+            color: #ffff;
+        }
+        .block{
+            display: inline-block;
+            margin-top: 5%;
+            border: 3px solid rgb(141, 101, 101);
+            border-radius: 25px;
+            text-align: center;
+        }
+        .block:hover{
+            cursor: pointer;
+            border: 5px #ffff;
+            
+        }
+
+        .row--underline{
+            cursor: pointer;
+            color: rgb(141, 101, 101);
+        }
+        .row--underline:hover{
+            background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/star.svg");
+            background-repeat: repeat-x;
+            background-size: 10px 9px;
+            color: rgb(141, 101, 101);
+
+        }
+
+        .second{ 
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            color:rgb(202, 200, 200);
+        }
+
+        .third{
+           
+            font-style: italic;
+            font-size: 20px;
+            color:rgb(141, 101, 101);
+        }
+       
+}
+
+    </style>
+</head>
+<body>
+
+    <div style="text-align: center; margin-top: 5%;">
+        <h1 > На странице <span class="row row--underline">уникальный текст, нажмите</span> </h1>
+    </div>
+    
+    <div class="block"  >
+        <p style=" font-size: 20px;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <div class="block">
+        <p class="second"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <div class="block">
+        <p class="third"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+</body>
+</html>
