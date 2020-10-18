@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(213, 205, 219);
+    margin: 0;
+}
+.left{
+background-color: #ffffff;   
+position: relative;
+width: 50%;
+display: flex;
+}
+
+.img{
+    position: absolute;
+    left: 10%;
+    margin-top: 20%;
+}
+
+.head{
+    padding-left: 35%;
+    position: absolute;
+    font-family: 'Parisienne', cursive;
+    font-size: 40px;
+    font-weight: 400;  
+}
+
+.right{
+    position: absolute;
+    font-family: 'Forum', cursive;
+font-family: 'Old Standard TT', serif;
+    width: 46%;
+    display: flex;
+    top:25%;
+    left: 50%;
+    font-size: 21px;
+}
+.second{
+    position: absolute;
+left: 50%;
+}
+
+.links{
+    position: absolute;
+    left: 80%;
+    top: 90%;
+}
+
+.white{
+    color: #ffff;
+}
+.link{
+ color: black;
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 50px;
+}
