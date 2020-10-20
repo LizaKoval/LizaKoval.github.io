@@ -2,41 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IPhone</title>
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Frogish</title>
     <style>
-        body{
-            background-image: url(img/phina.jpg);
-            background-size: 100%;
+        .mother{
+            width:100%;
+            position:relative;
         }
-        .block{
-            display: inline-block;
-            background-color: rgb(85, 88, 92);
-            width: 400px;
-            margin-left: 5%;
+
+        .left{
             margin-top: 10%;
+            width: 400px;
+            height: 350px;
+            background-color:black;
+            border-radius: 25px;
+            position: absolute;
+            left: 10%;
+        }
+
+        .right{
+            margin-top: 10%;
+            width: 400px;
+            height: 350px;
+            border-radius: 25px;
+            background-color:black;
+            position: absolute;
+            right: 10%;
         }
 
         .img{
-            margin-top: 20px;
-            margin-left: 50px;
-            width: 300px;
-            height: 280px;
+            position: absolute;
+            top: 25px;
+            left: 50px;
         }
 
-        p{
-            font-weight: bold;
-            color: #ffff;
-            font-size: 20px;
-            font-family: 'Courier New', Courier, monospace;
-            margin-left: 125px;
-        }
     </style>
-
 </head>
 <body>
-    <div class="block"> <img class="img" src="img/Стив.jpg" alt="Стив">  <p>Изображение jpg</p></div>
-    <div class="block"> <img class="img" src="img/IPhone.gif" alt=""> <p> Изображение gif</p> </div>
-    <div class="block"> <img class="img" src="img/jobs_medium.png" alt=""> <p> Изображение png </p> </div>
+    <div class="mother">
+        <h1 style="font-size: 50px; text-align: center;"> Ну, а ещё Настя клёвая, или вы хотите поспорить?</h1>
+        <div class="left"><img  class="img" src="img/drink.jpg" width="300px" alt=""></div>
+        <div class="right"> <img class="img" src="img/ulJbIhlWLdfGbCW-800x450-noPad.jpg" width="300px"  height=" 300" alt=""></div>
+    </div>
 </body>
 </html>
