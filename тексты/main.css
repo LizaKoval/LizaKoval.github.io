@@ -1,0 +1,32 @@
+span{
+    border: 2px solid black;
+}
+
+p{
+    color: black;
+}
+
+body{
+    color: rgb(156, 60, 60);
+}
+
+h1{
+    color: black;
+}
+
+.lan{
+    border: none;
+    padding-left: 10px;
+}
+
+.Pru{
+    color: green;
+}
+
+.oblique{
+    font-style: oblique;
+}
+
+.red{
+    color: red;
+}
