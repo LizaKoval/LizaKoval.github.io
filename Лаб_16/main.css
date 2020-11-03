@@ -1,0 +1,64 @@
+body{
+    background-color: antiquewhite;
+    color: rgb(117, 88, 71);
+    font-family: 'Lobster', cursive;
+}
+span{
+    display: block;
+    margin-top: 7%;
+    font-size: 25px;
+    font-style: Garamond;
+    margin-left: 37%;
+    font-weight: 100;
+    width: 800px;
+    
+}
+
+.container{
+    width: 80%;
+    margin: 15% 10% 10% 10%;
+}
+
+.first{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second{
+    display: flex;
+ justify-content: space-between;
+ padding: 10% 0;
+}
+
+.img-container{
+    width:40%;
+   
+}
+
+.img{
+    width: 100%;
+    
+}
+
+.fighya{
+    width: 30%;
+}
+
+.imgsmall{
+    width: 100%;
+}
+
+.img{
+    transition: 1s;
+}
+
+.img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.icon{
+    margin-left: 10%;
+}
+
