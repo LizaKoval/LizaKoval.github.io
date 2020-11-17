@@ -1,0 +1,44 @@
+body{
+    font-family: 'Cormorant Garamond', serif;
+    background-color: rgb(221, 212, 212);
+    margin: 0;
+}
+
+.div{
+    width: 100%;
+    z-index: 1000;
+}
+
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+}
+
+img{
+    padding-left: 10%;
+}
+
+p{
+    position: absolute;
+    font-family: 'Dancing Script', cursive;
+    left: 80%;
+    font-size: 30px;
+}
+
+.container{
+    position: relative;
+ height: 250px;
+margin-top: 300px;
+ width: 100%;
+ background-color: #ffff;
+}
+
+span{
+position: absolute;
+display: block;
+margin-left: 10%;
+padding-top: 5%;
+text-align: center;
+width: 80%;
+font-size: 30px;
+}
