@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <link rel="stylesheet" href="window.css">
+    <script>
+    
+ function Click()
+ {
+     var id;
+     id=window.open("about:blank", " hi", "width=350, height=200");
+    id.document.write("<h1> Всё равно не сработало. Давайте вернёмся к Даше.</h1> <br>");
+    id.document.write("<input type ='button' value='покинуть страницу'>");
+    id.document.write("<h2> Но прежде, напишите приятности всякие Даше</h2> <br>");
+    id.document.write("<input type ='text'> <br>");
+    id.document.write("<input type ='button' value='Вернуться к Дашe'onclick='window.close();'>");
+ }
+    </script>
+</head>
+<body>
+    <div class="block">
+        <h1> Ooooooooooops!</h1>
+        <p> Error 404</p>
+
+        <input id="button" type="button" onClick="Click();" value=" Даша, нажми">
+    </div>
+    
+</body>
+</html>

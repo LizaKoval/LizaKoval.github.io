@@ -1,0 +1,32 @@
+body{
+    background-image: url(img/800px_COLOURBOX6397246.jpg)
+}
+
+.block{
+    position: absolute;
+    width: 50%;
+    height: 550px;
+    top:13%;
+    right: 20%;
+    background: #ffff;
+    text-align: center;
+}
+
+.block h1{
+    font-size: 100px;
+}
+
+.block p {
+    font-size: 40px;
+}
+
+#button{
+    background-color:#ffff;
+    border-radius: 5px;
+    font-size: 50px;
+}
+
+#button:hover{
+    background-color:  rgb(158, 111, 111);
+}
+
