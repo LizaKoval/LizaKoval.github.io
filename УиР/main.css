@@ -1,0 +1,186 @@
+body{
+    margin:0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+nav::before{
+    content:"";
+    display: block;
+    height: 50 px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+ ul{
+     margin:0;
+     padding: 0;
+    height: 50px;
+ }
+
+ ul li{
+     float: left;
+ }
+
+ .link{
+     color: #fff;
+     display: block;
+     height: 50px;
+    padding: 0 30px;
+    line-height: 50px;
+    text-decoration: none;
+ }
+
+.link:hover{
+     background: #5169d4;
+ }
+
+ h1{
+text-align: center;
+font-size: 150px;
+margin-bottom: 0;
+transition: 1s;
+ }
+
+ h1:hover{
+     text-shadow:rgb(245, 165, 44) 6px 7.5px;
+     transform: scale(1.2);
+ }
+
+ .start_img{
+     width: 100%;
+ }
+
+ .start_img img{
+     width: 100%;
+ }
+
+ h3{
+     text-align: center;
+     font-size: 35px;
+ }
+
+ hr{
+     width:5%;
+     height: 5px;
+     background-color: black;
+     color: black;
+ }
+
+ /*.wrap{
+     width: 80%;
+     border: 3px black solid;
+     margin-left:10%;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .box{
+     width: 30%;
+    border: 3px red solid;
+ }*/
+
+ #mypic{
+     transition: 3s;
+ }
+ .wrap{
+    width: 100%;
+    margin-top: 2%;
+    position: relative;
+    margin-bottom: 30px;
+   }
+   .container{
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.box{
+    width: 25%;
+}
+
+.flex_img{
+    transition: 1s; 
+    width: 55%;
+    margin-left:25%;
+}
+
+/*.box a{
+    margin-left:25%;
+    text-decoration: none;
+}
+
+.box a:hover{
+    text-shadow:rgb(245, 165, 44) 1px 1.5px;
+}*/
+
+.box a{
+    margin-top:10%;
+    margin-left:25%;
+   font-size: 20px;
+   color: black;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+ position: relative;
+ height: 30px;
+  transition:all 300ms ease 0;
+}
+
+.box a:before
+{
+  content:'';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left:50%;
+  right:50%;
+  height:3px;
+  background: black;
+  transition: all .5s;
+  width: 0;
+}
+
+.box a:hover:before
+{
+  left:0;
+  right:0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.capture{
+    padding-left: 15%;
+}
+
+ .capture_1{
+    padding-left: 20%;
+ }  
+
+ .ps{
+     position: relative;
+     width: 35%;
+     height:100px;
+     margin-top: 5%;
+     MARGIN-LEFT: 35%;
+     text-align: center;
+     color: white;
+     background-color: black;
+     border-radius: 10px;
+ }
+
+ .ps p{
+     position: absolute;
+     padding-top: 3%;
+     padding-left: 25%;
+ }
+
+ .ps:hover{
+     background-color:rgb(245, 165, 44);
+ }
