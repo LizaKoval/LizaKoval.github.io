@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    font-family: 'Amatic SC', cursive;
+    background-image: url(img/pexels-valeriia-miller-2516650.jpg);
+
+}
+
+.box.box1{
+    
+    z-index: 1000;
+    left: 37%;
+    padding-top: -100%;
+}
+
+.box{
+    position: relative;
+    width: 560px;
+    background-color: black;
+    height: 400px;
+    border-radius: 25px;
+}
+.box span{
+    position: absolute;
+color: white;
+font-size: 30px;
+text-align: center;
+margin-left: 1%;
+margin-top: 15%;
+}
+
+.box.box2{
+    color: black;
+}
+
+.box.box1:hover{
+    color: black;
+    background-color: rgb(245, 165, 44);
+}

@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    background-image:url(img/фон.jpg);
+    background-size: 650px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+nav::before{
+    content:"";
+    display: block;
+    height: 50 px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+ ul{
+     margin:0;
+     padding: 0;
+    height: 50px;
+ }
+
+ ul li{
+     float: left;
+ }
+
+ .link{
+     color: #fff;
+     display: block;
+     height: 50px;
+    padding: 0 30px;
+    line-height: 50px;
+    text-decoration: none;
+ }
+
+.link:hover{
+     background: #f7ba36;
+ }
+
+.intro{
+    position: relative;
+    padding-top: 50px;
+    width:80%;
+    height: 350px;
+    margin-left:10%;
+}
+
+#ava{
+    width: 35%;
+    margin-left:10%;
+    transition: 1s;
+    filter: grayscale(80%);
+}
+
+#ava:hover{
+    box-shadow: 0 0 110px 5px rgb(241, 237, 233);
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+p{
+    text-align: center;
+}
+
+#intro_text{
+    display: block;
+    padding-top: 11%;
+    margin-left: 55%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.icons_wrap{
+    margin-top: 100px;
+    width: 80%;
+    margin-left:10%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.icon{
+    width: 100px;
+}
+
+.icons_tittle{
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+ position: relative;
+ height: 30px;
+  transition:all 300ms ease 0;
+}
+
+.icons_tittle:before
+{
+  content:'';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left:50%;
+  right:50%;
+  height:3px;
+  background: black;
+  transition: all .5s;
+  width: 0;
+}
+
+.icons_tittle:hover:before
+{
+  left:0;
+  right:0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.icons_element{
+    text-align: center;
+}
+
+.black{
+    padding-top: 50px;
+    width: 100%;
+    background-color: black;
+    height: 390px;
+    color: white;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    height:150px;
+    margin-left: 10%;
+    font-family: 'Amatic SC', cursive;
+    font-weight:bold;
+    justify-content: space-around;
+}
+
+.box{
+    display: flex;
+    font-size: 60px;
+}
+
+.box a{
+    text-decoration: none;
+    color: white;
+}
+
+.box a:hover{
+    cursor: pointer;
+    text-shadow:rgb(245, 165, 44) 4.1px 4.2px;
+}
